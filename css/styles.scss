@@ -4,6 +4,10 @@ h1 {
   text-align: center;
 }
 
+nav {
+  font-family: cursive;
+}
+
 body {
   background: url(../images/blue_background.jpeg);
   width: 640px;
@@ -15,6 +19,7 @@ body {
   display: block;
   width: 640px;
   height: 480px;
+  margin: 0 auto;
 }
 
 .overlay {
@@ -26,7 +31,7 @@ body {
   background-color: rgba(0,0,0,0);
 }
 
-.darkbutton {
+.darkbutton, .lightbutton {
   border: 0;
   background: rgba(150,150,150,0.6);
   text-shadow: 1px 1px 1px white;
@@ -53,4 +58,14 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.col-md-8 {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
 }

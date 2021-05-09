@@ -19,12 +19,12 @@ for(let i = 1; i <= 5; i++) {
 
 btn.onclick = function() {
   const btnClass = btn.getAttribute('class');
-  if(btnClass === '.darkbutton') {
-    btn.setAttribute('class','light');
+  if(btnClass === 'darkbutton') {
+    btn.setAttribute('class','lightbutton');
     btn.textContent = 'Lighten';
     overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
   } else {
-    btn.setAttribute('class','.darkbutton');
+    btn.setAttribute('class','darkbutton');
     btn.textContent = 'Darken';
     overlay.style.backgroundColor = 'rgba(0,0,0,0)';
   }
