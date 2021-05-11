@@ -1,29 +1,25 @@
+body {
+  background: url(../images/blue_background.jpeg); }
+
 h1 {
   font-family: cursive, arial, sans-serif;
   color: #353A40;
-  text-align: center; }
-
-nav {
-  font-family: cursive; }
-
-body {
-  background: url(../images/blue_background.jpeg);
-  width: 640px;
-  margin: 0 auto; }
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .full-img {
   position: relative;
   display: block;
-  width: 640px;
-  height: 480px;
+  width: 50%;
   margin: 0 auto; }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 640px;
-  height: 480px;
+  bottom: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0); }
 
 .darkbutton, .lightbutton {
@@ -43,18 +39,5 @@ body {
   cursor: pointer; }
 
 .thumb-bar {
-  width: 640px; }
-
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; }
-
-.col-md-8 {
-  padding-left: 0px;
-  padding-right: 0px;
-  text-align: center; }
-
-.container {
-  text-align: center; }
+  width: 50%;
+  margin: 0 auto; }
